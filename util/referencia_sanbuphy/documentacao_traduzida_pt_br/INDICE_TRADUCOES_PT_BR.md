@@ -1,4 +1,4 @@
-﻿# INDICE DE TRADUCOES (PT-BR)
+# INDICE DE TRADUCOES (PT-BR)
 
 ## Arquivos traduzidos
 
@@ -15,6 +15,6 @@
 
 ## Originais
 
-- ../repositorio_original/README.md
-- ../repositorio_original/QUICKSTART.md
-- ../repositorio_original/docs/en/
+- ../fonte_original/README.md
+- ../fonte_original/QUICKSTART.md
+- ../fonte_original/docs/en/

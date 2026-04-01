@@ -1,72 +1,85 @@
-﻿# Claude Code Local (Unificado)
+# Claude Code Local
 
-Este repositorio consolida o melhor de duas bases:
+Este repositorio foi reorganizado para funcionar como um acervo tecnico navegavel, com duas fronteiras explicitas:
 
-- extracao local principal do codigo-fonte;
-- material complementar do repositorio `sanbuphy/claude-code-source-code`.
+- `util/`: tudo o que serve para estudo, leitura, comparacao, referencia e trabalho tecnico.
+- `inutil/`: tudo o que precisa ser preservado por rastreabilidade, mas nao deve poluir o fluxo principal.
 
-Tudo foi organizado em portugues tecnico, com estrutura unica e rastreavel.
+Nenhum arquivo foi apagado na reorganizacao. O trabalho consistiu em mover diretorios para destinos mais intuitivos, preservar material legado e criar documentacao propria em Markdown para explicar profundamente o codigo.
 
-## Objetivo
-
-- manter uma base unica de trabalho (sem projeto paralelo);
-- preservar fontes e documentacoes originais;
-- disponibilizar traducoes em PT-BR para consulta rapida;
-- separar claramente conteudo util e conteudo inutil para desenvolvimento direto.
-
-## Estrutura Atual
+## Estrutura principal
 
 ```text
 .
 |-- util/
-|   |-- codigo_fonte_extraido/
+|   |-- codigo_principal/
 |   |   `-- claude_code_src/
-|   |-- artefatos_originais/
-|   |   |-- repositorios_bundle/
-|   |   `-- compactados_zip/
-|   |-- complementos_sanbuphy/
-|   |   |-- repositorio_original/
-|   |   |-- traducao_pt_br/
-|   |   `-- analise_diferencas/
+|   |-- fontes_preservadas/
+|   |   |-- compactados_zip/
+|   |   `-- repositorios_bundle/
+|   |-- referencia_sanbuphy/
+|   |   |-- fonte_original/
+|   |   |-- documentacao_traduzida_pt_br/
+|   |   `-- analise_de_diferencas/
 |   `-- documentacao/
 `-- inutil/
-    |-- duplicatas_descartadas/
-    `-- metadados_arquivamento/
+    |-- duplicatas_arquivadas/
+    `-- metadados_de_origem/
 ```
 
-## O que foi unificado
+## Como ler este repositorio
 
-### Base principal (util)
+1. Comece por `util/documentacao/README.md`.
+2. Use `util/codigo_principal/claude_code_src/` como base principal de estudo do runtime.
+3. Consulte `util/referencia_sanbuphy/fonte_original/` quando precisar do contexto do repositorio complementar que inclui `package.json`, `tsconfig.json`, `docs/`, `scripts/` e outros artefatos de build.
+4. Use `util/referencia_sanbuphy/documentacao_traduzida_pt_br/` para leitura rapida em portugues do material complementar.
+5. Ignore `inutil/` no dia a dia, exceto quando precisar rastrear origem, duplicatas ou metadados de arquivamento.
 
-- `util/codigo_fonte_extraido/claude_code_src/`
-  - fonte principal para estudo, leitura e navegacao de codigo.
+## O que existe em cada area
 
-### Complementos sanbuphy (util)
+### `util/codigo_principal/claude_code_src/`
 
-- `util/complementos_sanbuphy/repositorio_original/`
-  - documentacao original (EN/JA/KO/ZH), scripts, stubs, vendor e arquivos de infraestrutura.
-  - nada foi descartado dessa documentacao.
+Codigo principal extraido e tratado como fonte ativa para leitura arquitetural, navegacao entre modulos e entendimento do runtime.
 
-- `util/complementos_sanbuphy/traducao_pt_br/`
-  - versoes em portugues dos documentos principais do material complementar.
+### `util/fontes_preservadas/`
 
-- `util/complementos_sanbuphy/analise_diferencas/`
-  - relatorio de diferencas entre `src/` do sanbuphy e a fonte principal local.
+Artefatos originais mantidos por integridade historica:
 
-## Documentacao em portugues
+- bundles de repositorios;
+- arquivos compactados;
+- material bruto que nao deve ser confundido com a base principal de estudo.
 
-Leia primeiro:
+### `util/referencia_sanbuphy/`
 
-- `util/documentacao/DOCUMENTACAO_UNIFICADA_PT_BR.md`
-- `util/documentacao/INDICE_UNIFICACAO_PT_BR.md`
-- `util/complementos_sanbuphy/traducao_pt_br/INDICE_TRADUCOES_PT_BR.md`
+Camada de referencia para comparacao com a base complementar:
 
-## Convencao aplicada
+- `fonte_original/`: espelho do repositorio complementar com `src/`, `docs/`, `scripts/`, `package.json` e `tsconfig.json`;
+- `documentacao_traduzida_pt_br/`: traducoes tecnicas existentes;
+- `analise_de_diferencas/`: comparativo entre a fonte complementar e a base principal.
 
-- nomes em `snake_case`
-- termos descritivos em portugues tecnico
-- originais preservados, traducoes separadas
+### `util/documentacao/`
 
-## Nota
+Documentacao propria deste acervo. Esta e a camada autoral do repositorio:
 
-`inutil/` existe para manter historico e rastreabilidade, mas sem poluir o fluxo principal de desenvolvimento.
+- explica a organizacao;
+- documenta o fluxo do codigo;
+- descreve modulos, runtime, ferramentas, estado, extensibilidade e rotas de leitura.
+
+### `inutil/`
+
+Conteudo mantido por rastreabilidade, sem papel operacional:
+
+- duplicatas arquivadas;
+- metadados de origem e arquivamento.
+
+## Documentacao principal
+
+- `util/documentacao/README.md`
+- `util/documentacao/repositorio/01-visao-geral.md`
+- `util/documentacao/codigo/01-arquitetura-geral.md`
+- `util/documentacao/codigo/02-fluxo-de-execucao.md`
+- `util/documentacao/codigo/06-mapa-de-modulos.md`
+
+## Observacao importante
+
+Este repositorio nao foi convertido em um projeto "pronto para build" na raiz. O `package.json` e os demais arquivos de build continuam preservados em `util/referencia_sanbuphy/fonte_original/`, porque esse material pertence ao repositorio complementar e deve permanecer contextualizado como referencia preservada, nao como a raiz operacional deste acervo.
