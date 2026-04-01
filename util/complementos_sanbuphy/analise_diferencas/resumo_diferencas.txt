@@ -1,0 +1,6 @@
+﻿Resumo da analise de diferencas (fonte principal local vs sanbuphy/src)
+Total arquivos em sanbuphy/src: 1902
+Total registros de diferenca: 1902
+Por status:
+- conteudo_diferente: 1384
+- faltando_no_local: 518

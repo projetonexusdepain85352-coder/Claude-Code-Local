@@ -1,76 +1,72 @@
-# Claude Code Local (Organizado)
+﻿# Claude Code Local (Unificado)
 
-Este repositório é uma organização local de materiais relacionados ao código-fonte extraído do Claude Code, estruturado para facilitar estudo técnico, auditoria e navegação.
+Este repositorio consolida o melhor de duas bases:
+
+- extracao local principal do codigo-fonte;
+- material complementar do repositorio `sanbuphy/claude-code-source-code`.
+
+Tudo foi organizado em portugues tecnico, com estrutura unica e rastreavel.
 
 ## Objetivo
 
-- Centralizar o conteúdo em uma estrutura limpa.
-- Separar claramente o que é útil para análise técnica do que é apenas metadado/duplicata.
-- Preservar rastreabilidade com documentação e manifestos completos.
+- manter uma base unica de trabalho (sem projeto paralelo);
+- preservar fontes e documentacoes originais;
+- disponibilizar traducoes em PT-BR para consulta rapida;
+- separar claramente conteudo util e conteudo inutil para desenvolvimento direto.
 
-## Estrutura do Projeto
+## Estrutura Atual
 
 ```text
 .
-├── util/
-│   ├── codigo_fonte_extraido/
-│   │   └── claude_code_src/
-│   ├── artefatos_originais/
-│   │   ├── repositorios_bundle/
-│   │   └── compactados_zip/
-│   └── documentacao/
-└── inutil/
-    ├── duplicatas_descartadas/
-    └── metadados_arquivamento/
+|-- util/
+|   |-- codigo_fonte_extraido/
+|   |   `-- claude_code_src/
+|   |-- artefatos_originais/
+|   |   |-- repositorios_bundle/
+|   |   `-- compactados_zip/
+|   |-- complementos_sanbuphy/
+|   |   |-- repositorio_original/
+|   |   |-- traducao_pt_br/
+|   |   `-- analise_diferencas/
+|   `-- documentacao/
+`-- inutil/
+    |-- duplicatas_descartadas/
+    `-- metadados_arquivamento/
 ```
 
-## O que tem em cada pasta
+## O que foi unificado
 
-### `util/`
-Conteúdo técnico principal.
+### Base principal (util)
 
-- `codigo_fonte_extraido/claude_code_src/`: código-fonte extraído (`.ts`, `.tsx`, `.js`).
-- `artefatos_originais/repositorios_bundle/`: uma cópia útil de cada `.bundle`.
-- `artefatos_originais/compactados_zip/`: `.zip` preservado para referência.
-- `documentacao/`: documentação exaustiva, árvores, manifestos CSV e hashes SHA256.
+- `util/codigo_fonte_extraido/claude_code_src/`
+  - fonte principal para estudo, leitura e navegacao de codigo.
 
-### `inutil/`
-Conteúdo preservado, mas não essencial para desenvolvimento direto.
+### Complementos sanbuphy (util)
 
-- `duplicatas_descartadas/`: cópias duplicadas de pacotes.
-- `metadados_arquivamento/`: arquivos de arquivo/publicação (`.xml`, `.sqlite`, `.torrent`, capas/thumbs).
+- `util/complementos_sanbuphy/repositorio_original/`
+  - documentacao original (EN/JA/KO/ZH), scripts, stubs, vendor e arquivos de infraestrutura.
+  - nada foi descartado dessa documentacao.
 
-## Documentação Principal
+- `util/complementos_sanbuphy/traducao_pt_br/`
+  - versoes em portugues dos documentos principais do material complementar.
+
+- `util/complementos_sanbuphy/analise_diferencas/`
+  - relatorio de diferencas entre `src/` do sanbuphy e a fonte principal local.
+
+## Documentacao em portugues
 
 Leia primeiro:
 
-- `util/documentacao/DOCUMENTACAO_EXAUSTIVA.md`
-- `util/documentacao/INDICE_DOCUMENTACAO.md`
+- `util/documentacao/DOCUMENTACAO_UNIFICADA_PT_BR.md`
+- `util/documentacao/INDICE_UNIFICACAO_PT_BR.md`
+- `util/complementos_sanbuphy/traducao_pt_br/INDICE_TRADUCOES_PT_BR.md`
 
-Arquivos de apoio importantes:
+## Convencao aplicada
 
-- `manifesto_completo_util.csv`
-- `manifesto_completo_inutil.csv`
-- `hashes_artefatos_uteis_sha256.csv`
-- `arvore_util_completa.txt`
-- `arvore_inutil_completa.txt`
+- nomes em `snake_case`
+- termos descritivos em portugues tecnico
+- originais preservados, traducoes separadas
 
-## Padrão de Nomes
+## Nota
 
-- Convenção: `snake_case`
-- Idioma: português técnico
-- Nomes descritivos por finalidade
-
-## Fluxo de Trabalho (Git)
-
-Exemplo de fluxo para subir alterações:
-
-```bash
-git checkout codex/organizacao-estrutura-documentacao
-git pull --rebase
-git push -u origin codex/organizacao-estrutura-documentacao
-```
-
-## Observação
-
-Este repositório foi preparado para estudo e organização técnica. A pasta `util` contém o núcleo de trabalho; `inutil` mantém contexto histórico sem poluir a navegação principal.
+`inutil/` existe para manter historico e rastreabilidade, mas sem poluir o fluxo principal de desenvolvimento.
