@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="Kuberwastaken-claude-code_-_2026-03-31_10-56-40.bundle" source="original">
+    <mtime>1774971515</mtime>
+    <size>10665901</size>
+    <md5>d35791e72d4d888dbd0d601f54c0bf1e</md5>
+    <crc32>d886dbe2</crc32>
+    <sha1>f46f455683d0d3145f4ba760900b461ad04bc624</sha1>
+    <format>Unknown</format>
+    <viruscheck>1774972252</viruscheck>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1774971618</mtime>
+    <size>5505</size>
+    <md5>2c1645294563d925b880180cf3a2b8db</md5>
+    <crc32>59a01c18</crc32>
+    <sha1>d59f537f9108883b98c69e835aae4df0ffca988a</sha1>
+    <format>Item Tile</format>
+  </file>
+  <file name="cover.jpg" source="original">
+    <mtime>1774971528</mtime>
+    <size>11149</size>
+    <md5>9356256a23446feffd56d116baae4bbd</md5>
+    <crc32>ef4d1009</crc32>
+    <sha1>c6cbc70da5fff72edba4850d1a073abf33d82014</sha1>
+    <format>JPEG</format>
+  </file>
+  <file name="cover_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>cover.jpg</original>
+    <mtime>1774972491</mtime>
+    <size>6222</size>
+    <md5>97d992038acf766a07d77083cea129a0</md5>
+    <crc32>22d45d00</crc32>
+    <sha1>3b9afd92fd39ff94b54941263c737b0d326ba5ba</sha1>
+  </file>
+  <file name="github.com-Kuberwastaken-claude-code_-_2026-03-31_10-56-40_archive.torrent" source="metadata">
+    <btih>1cbaadc40090b949cbd131a1e8189f154f2c8a1d</btih>
+    <mtime>1774972509</mtime>
+    <size>3003</size>
+    <md5>1a33c92cfb59491492c8db3990ffaa2d</md5>
+    <crc32>d019b08b</crc32>
+    <sha1>ae613c2ca1b48d2ebc69e3150cf1426bbfa2a6e7</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="github.com-Kuberwastaken-claude-code_-_2026-03-31_10-56-40_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>7967466806cc2a11e622643fb13c7b9e</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="github.com-Kuberwastaken-claude-code_-_2026-03-31_10-56-40_meta.sqlite" source="original">
+    <mtime>1774971573</mtime>
+    <size>110592</size>
+    <md5>2476e18e6ef5e5fc7117c491c8ff09be</md5>
+    <crc32>985d0c5c</crc32>
+    <sha1>31b47e75053e5289ea692b80b115e382254c464e</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="github.com-Kuberwastaken-claude-code_-_2026-03-31_10-56-40_meta.xml" source="original">
+    <mtime>1774972252</mtime>
+    <size>38830</size>
+    <md5>2d8769cb8e97f4786934f3530f7eacc9</md5>
+    <crc32>c9cb50ff</crc32>
+    <sha1>b362f28b1b850d539592fafdc26ac40eb1cc04e0</sha1>
+    <format>Metadata</format>
+  </file>
+</files>

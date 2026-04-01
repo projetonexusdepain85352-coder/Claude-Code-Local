@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1774971556</mtime>
+    <size>3832</size>
+    <md5>c7b9c3d9142e7f139f1a6dbca88cf0e2</md5>
+    <crc32>60675ec7</crc32>
+    <sha1>4c66bf8401e30ca75a2ce1a40a4cd1b78408a92e</sha1>
+    <format>Item Tile</format>
+  </file>
+  <file name="cover.jpg" source="original">
+    <mtime>1774971506</mtime>
+    <size>79235</size>
+    <md5>d19ea7d8565fb1854435ffddf89a5822</md5>
+    <crc32>a856ea8e</crc32>
+    <sha1>2c4bbcb86c62abe1051af0ef34510f29d62e2dd3</sha1>
+    <format>JPEG</format>
+  </file>
+  <file name="cover_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>cover.jpg</original>
+    <mtime>1774972177</mtime>
+    <size>4771</size>
+    <md5>70745a54458e3fdd79fba459fa5c01cc</md5>
+    <crc32>d54033a4</crc32>
+    <sha1>6a2b2405346408a25099fd5106995f7136aa3422</sha1>
+  </file>
+  <file name="github.com-nirholas-claude-code_-_2026-03-31_12-43-52_archive.torrent" source="metadata">
+    <btih>4f0b75a90f220a1b698caf0e5fbcd6f00f5ccd0a</btih>
+    <mtime>1774972185</mtime>
+    <size>3052</size>
+    <md5>5d901fefefd31ff7a54308df80efe840</md5>
+    <crc32>cd7890c1</crc32>
+    <sha1>6f98d73f3c88d0d0a11d8901cf435bcf6371df60</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="github.com-nirholas-claude-code_-_2026-03-31_12-43-52_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>eea298fa4bd67b78e59d78b2e8107967</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="github.com-nirholas-claude-code_-_2026-03-31_12-43-52_meta.sqlite" source="original">
+    <mtime>1774971520</mtime>
+    <size>77824</size>
+    <md5>33242c3bbd95ef10eaf6298b2d1a9f36</md5>
+    <crc32>200bd474</crc32>
+    <sha1>9466eb90e3d6463112e64813c40a094242d9b9d4</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="github.com-nirholas-claude-code_-_2026-03-31_12-43-52_meta.xml" source="original">
+    <mtime>1774971877</mtime>
+    <size>25926</size>
+    <md5>9ddddf8d096241529c0a5cdac7c50602</md5>
+    <crc32>6877f4a0</crc32>
+    <sha1>312dc95cf2e45137ef788f10daf8e43492b32170</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="nirholas-claude-code_-_2026-03-31_12-43-52.bundle" source="original">
+    <mtime>1774971494</mtime>
+    <size>13146484</size>
+    <md5>7a8d5d257137fefd3771c8430cd928e8</md5>
+    <crc32>83de1c95</crc32>
+    <sha1>e650515a5d30e05bc4df781f17b54dabaa432702</sha1>
+    <format>Unknown</format>
+    <viruscheck>1774971877</viruscheck>
+  </file>
+</files>

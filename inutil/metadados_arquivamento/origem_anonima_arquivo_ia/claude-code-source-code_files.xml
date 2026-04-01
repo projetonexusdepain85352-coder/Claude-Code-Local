@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="claude-code-source-code_archive.torrent" source="metadata">
+    <btih>fb63c22690ceedc15623ece9526e21119913377c</btih>
+    <mtime>1774975631</mtime>
+    <size>2101</size>
+    <md5>67bc232698b0a58282d93bb2687d3595</md5>
+    <crc32>29bce257</crc32>
+    <sha1>005d002021106312710dad534355a0c489dd9a21</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="claude-code-source-code_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>8463e4b8740af3c5abeb7668ffa60c04</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="claude-code-source-code_meta.sqlite" source="original">
+    <mtime>1774975599</mtime>
+    <size>20480</size>
+    <md5>0cec07d3fda022e9979623fce3f943bc</md5>
+    <crc32>98f2acd9</crc32>
+    <sha1>2f4421218992975375aecdb2d36b297a6b2b16fe</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="claude-code-source-code_meta.xml" source="original">
+    <mtime>1774975629</mtime>
+    <size>925</size>
+    <md5>794db34dbd1fdf05580717ec272a22c5</md5>
+    <crc32>2c4fa46a</crc32>
+    <sha1>2613dfdab1268aa6f56c484e7c79273a42e7c424</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="src.zip" source="original">
+    <mtime>1774975523</mtime>
+    <size>9917836</size>
+    <md5>d5b4559eb7297493f89a3c74e12b4aff</md5>
+    <crc32>c30aaa56</crc32>
+    <sha1>4a2a559b82a926dfaa339a67667938715ff1d825</sha1>
+    <format>ZIP</format>
+    <filecount>1902</filecount>
+    <viruscheck>1774975629</viruscheck>
+  </file>
+</files>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1774971597</mtime>
+    <size>4614</size>
+    <md5>906b26da1c42715c7c1df1fb6732763e</md5>
+    <crc32>9324f789</crc32>
+    <sha1>1088eb010f46277bb0de64e3d984e7a25ed58161</sha1>
+    <format>Item Tile</format>
+  </file>
+  <file name="chatgptprojects-claude-code_-_2026-03-31_15-20-45.bundle" source="original">
+    <mtime>1774971531</mtime>
+    <size>9867079</size>
+    <md5>77cdf73c39ae3928ac0a3894b15eab44</md5>
+    <crc32>f846c22d</crc32>
+    <sha1>aed833758c2905e7b2a11d1f1c0d3b85dbeba2d9</sha1>
+    <format>Unknown</format>
+    <viruscheck>1774971915</viruscheck>
+  </file>
+  <file name="cover.jpg" source="original">
+    <mtime>1774971544</mtime>
+    <size>12297</size>
+    <md5>4db3983b7e821e1d851bef7b4c2c8845</md5>
+    <crc32>79236d60</crc32>
+    <sha1>e45e18a0484b7784bd9ec03bec2e37b6432e6d30</sha1>
+    <format>JPEG</format>
+  </file>
+  <file name="cover_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>cover.jpg</original>
+    <mtime>1774971960</mtime>
+    <size>5762</size>
+    <md5>f0bd6e5aa1a7f91523ca92605d411662</md5>
+    <crc32>bfe6163e</crc32>
+    <sha1>0403a360dbd818ff781fcf0caeb6e374fd886440</sha1>
+  </file>
+  <file name="github.com-chatgptprojects-claude-code_-_2026-03-31_15-20-45_archive.torrent" source="metadata">
+    <btih>f275faadb9ef0cb852b05ea13451512819bd2ed0</btih>
+    <mtime>1774971967</mtime>
+    <size>2982</size>
+    <md5>cb9ebc31bf0d8a222967ab331789f679</md5>
+    <crc32>43eba818</crc32>
+    <sha1>fa3d4e2ecaf8b774d8bc9f0bf341f65f2d7d5cc5</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="github.com-chatgptprojects-claude-code_-_2026-03-31_15-20-45_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>0adccb38d103b053061c2ec608d03d40</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="github.com-chatgptprojects-claude-code_-_2026-03-31_15-20-45_meta.sqlite" source="original">
+    <mtime>1774971562</mtime>
+    <size>36864</size>
+    <md5>93393e6aae83977e1c0f7b9cc5b70ea7</md5>
+    <crc32>935597c6</crc32>
+    <sha1>8603037c69d6e2a1e41dfdd59124f62cf8f271c2</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="github.com-chatgptprojects-claude-code_-_2026-03-31_15-20-45_meta.xml" source="original">
+    <mtime>1774971915</mtime>
+    <size>7852</size>
+    <md5>91e389dcb6a9123e2deddce5d850371c</md5>
+    <crc32>f4d64e92</crc32>
+    <sha1>25c933d6683cddd6403585941f68c6598c110233</sha1>
+    <format>Metadata</format>
+  </file>
+</files>
